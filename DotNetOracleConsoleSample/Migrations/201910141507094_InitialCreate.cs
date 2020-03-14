@@ -8,7 +8,7 @@ namespace DotNetOracleConsoleSample.Migrations
         public override void Up()
         {
             CreateTable(
-                "SAMPLE.Blogs",
+                "SAMPLE2.Blogs",
                 c => new
                     {
                         Id = c.Decimal(nullable: false, precision: 10, scale: 0, identity: true),
@@ -20,7 +20,7 @@ namespace DotNetOracleConsoleSample.Migrations
         
         public override void Down()
         {
-            DropTable("SAMPLE.Blogs");
+            DropTable("SAMPLE2.Blogs");
         }
     }
 }

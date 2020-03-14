@@ -9,6 +9,9 @@ namespace DotNetOracleConsoleSample.Models
 {
     public class OracleDbContext : DbContext
     {
+        public OracleDbContext() : base("OracleDbContext")
+        { }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema("SAMPLE");

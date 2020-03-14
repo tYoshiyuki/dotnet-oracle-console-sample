@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOracleConsoleSample", "DotNetOracleConsoleSample\DotNetOracleConsoleSample.csproj", "{848CD25D-E5C9-4252-BE7A-B62557C5409B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOracleConsoleSample.Core", "DotNetOracleConsoleSample.Core\DotNetOracleConsoleSample.Core.csproj", "{961B7226-FFC3-4796-8EEB-3BE3217110A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{848CD25D-E5C9-4252-BE7A-B62557C5409B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{848CD25D-E5C9-4252-BE7A-B62557C5409B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{848CD25D-E5C9-4252-BE7A-B62557C5409B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961B7226-FFC3-4796-8EEB-3BE3217110A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961B7226-FFC3-4796-8EEB-3BE3217110A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961B7226-FFC3-4796-8EEB-3BE3217110A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961B7226-FFC3-4796-8EEB-3BE3217110A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

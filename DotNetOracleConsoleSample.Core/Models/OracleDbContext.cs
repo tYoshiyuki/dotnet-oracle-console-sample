@@ -2,7 +2,7 @@
 
 namespace DotNetOracleConsoleSample.Core.Models
 {
-    class OracleDbContext : DbContext
+    public class OracleDbContext : DbContext
     {
         private readonly string _connectionString;
 

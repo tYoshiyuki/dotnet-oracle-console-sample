@@ -28,6 +28,7 @@ namespace DotNetOracleConsoleSample
             var type = Assembly.GetExecutingAssembly()
                 .GetTypes().FirstOrDefault(t => t.Name == "Blog");
             var obj = await db.Set(type).ToListAsync();
+            var obj2 = db.Blogs.Where(_ => _.Id == 1).ToList();
 
             var db2 = new OracleDbContextSub();
             db2.Database.ExecuteSqlCommand("TRUNCATE TABLE SAMPLE2.\"Blogs\"");

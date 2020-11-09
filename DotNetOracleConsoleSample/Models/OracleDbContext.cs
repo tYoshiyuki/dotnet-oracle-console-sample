@@ -10,7 +10,9 @@ namespace DotNetOracleConsoleSample.Models
     public class OracleDbContext : DbContext
     {
         public OracleDbContext() : base("OracleDbContext")
-        { }
+        {
+            this.Database.Log = Console.WriteLine;
+        }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

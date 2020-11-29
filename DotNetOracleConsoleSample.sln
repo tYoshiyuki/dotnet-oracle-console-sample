@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOracleConsoleSample",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.Core", "DotNetOracleConsoleSample.Core\DotNetOracleConsoleSample.Core.csproj", "{961B7226-FFC3-4796-8EEB-3BE3217110A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOracleConsoleSample.Core.Benchmark", "DotNetOracleConsoleSample.Core.Benchmark\DotNetOracleConsoleSample.Core.Benchmark.csproj", "{0162E7EC-9EBF-4A51-A0D2-60392901CAA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.Core.Benchmark", "DotNetOracleConsoleSample.Core.Benchmark\DotNetOracleConsoleSample.Core.Benchmark.csproj", "{0162E7EC-9EBF-4A51-A0D2-60392901CAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOracleConsoleSample.DotNetFive", "DotNetOracleConsoleSample.DotNetFive\DotNetOracleConsoleSample.DotNetFive.csproj", "{67AA413C-D53C-4378-B12D-242C23A9F53C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0162E7EC-9EBF-4A51-A0D2-60392901CAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0162E7EC-9EBF-4A51-A0D2-60392901CAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0162E7EC-9EBF-4A51-A0D2-60392901CAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AA413C-D53C-4378-B12D-242C23A9F53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AA413C-D53C-4378-B12D-242C23A9F53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AA413C-D53C-4378-B12D-242C23A9F53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AA413C-D53C-4378-B12D-242C23A9F53C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

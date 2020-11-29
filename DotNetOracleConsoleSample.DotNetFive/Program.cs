@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
-using DotNetOracleConsoleSample.Core.Extensions;
-using DotNetOracleConsoleSample.Core.Models;
+using DotNetOracleConsoleSample.DotNetFive.Extensions;
+using DotNetOracleConsoleSample.DotNetFive.Models;
 
-namespace DotNetOracleConsoleSample.Core
+namespace DotNetOracleConsoleSample.DotNetFive
 {
     class Program
     {
@@ -11,8 +11,8 @@ namespace DotNetOracleConsoleSample.Core
         {
             // TODO 設定化する
             var db = new OracleDbContext("User Id=sample;Password=samplepw;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=XE)))");
-
             var blog = db.Blogs.ToList();
+
             Console.WriteLine("----- get data from db (ef core model) -----");
             blog.ForEach(x => Console.WriteLine($"{x.Id}:{x.Name}"));
             Console.WriteLine("----------");

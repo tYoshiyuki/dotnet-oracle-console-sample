@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.DotNetFive", "DotNetOracleConsoleSample.DotNetFive\DotNetOracleConsoleSample.DotNetFive.csproj", "{67AA413C-D53C-4378-B12D-242C23A9F53C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOracleConsoleSample.DotNetFive.Benchmark", "DotNetOracleConsoleSample.DotNetFive.Benchmark\DotNetOracleConsoleSample.DotNetFive.Benchmark.csproj", "{5329E4A9-5C8C-4BF2-B13B-9629E16CBA22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.DotNetFive.Benchmark", "DotNetOracleConsoleSample.DotNetFive.Benchmark\DotNetOracleConsoleSample.DotNetFive.Benchmark.csproj", "{5329E4A9-5C8C-4BF2-B13B-9629E16CBA22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

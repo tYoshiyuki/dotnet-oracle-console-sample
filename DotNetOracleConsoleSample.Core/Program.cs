@@ -17,7 +17,7 @@ namespace DotNetOracleConsoleSample.Core
             blog.ForEach(x => Console.WriteLine($"{x.Id}:{x.Name}"));
             Console.WriteLine("----------");
 
-            blog = db.SqlQuery<Blog>("SELECT * FROM SAMPLE.\"Blogs\"").ToList();
+            blog = db.SqlQuery<Blog>("SELECT * FROM SAMPLE.\"BLOG\"").ToList();
             Console.WriteLine("----- get data from db (extension method) -----");
             blog.ForEach(x => Console.WriteLine($"{x.Id}:{x.Name}"));
             Console.WriteLine("----------");

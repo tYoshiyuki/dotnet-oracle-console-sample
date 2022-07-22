@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29409.12
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOracleConsoleSample", "DotNetOracleConsoleSample\DotNetOracleConsoleSample.csproj", "{848CD25D-E5C9-4252-BE7A-B62557C5409B}"
 EndProject
@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.Core.Benchmark", "DotNetOracleConsoleSample.Core.Benchmark\DotNetOracleConsoleSample.Core.Benchmark.csproj", "{0162E7EC-9EBF-4A51-A0D2-60392901CAA4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.DotNetFive", "DotNetOracleConsoleSample.DotNetFive\DotNetOracleConsoleSample.DotNetFive.csproj", "{67AA413C-D53C-4378-B12D-242C23A9F53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.DotNet", "DotNetOracleConsoleSample.DotNet\DotNetOracleConsoleSample.DotNet.csproj", "{67AA413C-D53C-4378-B12D-242C23A9F53C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.DotNetFive.Benchmark", "DotNetOracleConsoleSample.DotNetFive.Benchmark\DotNetOracleConsoleSample.DotNetFive.Benchmark.csproj", "{5329E4A9-5C8C-4BF2-B13B-9629E16CBA22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetOracleConsoleSample.DotNet.Benchmark", "DotNetOracleConsoleSample.DotNet.Benchmark\DotNetOracleConsoleSample.DotNet.Benchmark.csproj", "{5329E4A9-5C8C-4BF2-B13B-9629E16CBA22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

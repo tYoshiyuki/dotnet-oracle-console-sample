@@ -1,7 +1,7 @@
 ﻿using System;
 using BenchmarkDotNet.Running;
 
-namespace DotNetOracleConsoleSample.DotNetFive.Benchmark
+namespace DotNetOracleConsoleSample.DotNet.Benchmark
 {
     class Program
     {

@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using BenchmarkDotNet.Attributes;
-using DotNetOracleConsoleSample.DotNetFive.Extensions;
-using DotNetOracleConsoleSample.DotNetFive.Models;
+using DotNetOracleConsoleSample.DotNet.Extensions;
+using DotNetOracleConsoleSample.DotNet.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DotNetOracleConsoleSample.DotNetFive.Benchmark
+namespace DotNetOracleConsoleSample.DotNet.Benchmark
 {
     public class Target
     {

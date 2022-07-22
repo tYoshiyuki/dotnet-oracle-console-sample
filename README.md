@@ -4,7 +4,7 @@ ODP.NET で Oracle にデータアクセスするサンプル
 ## Feature
 - .NET Framework
 - .NET Core
-- .NET5
+- .NET6
 - ODP.NET
 
 ## Project
@@ -14,20 +14,20 @@ ODP.NET で Oracle にデータアクセスするサンプル
     - ODP.NET + .NET Core + EntityFrameworkCore のサンプル
 - DotNetOracleConsoleSample.Core.Benchmark
     - DotNetOracleConsoleSample.Core のベンチマーク用
-- DotNetOracleConsoleSample.DotNetFive
-    - ODP.NET + .NET5 + EntityFrameworkCore のサンプル
-- DotNetOracleConsoleSample.DotNetFive.Benchmark
-    - DotNetOracleConsoleSample.DotNetFive.Benchmark のベンチマーク用
+- DotNetOracleConsoleSample.DotNet
+    - ODP.NET + .NET6 + EntityFrameworkCore のサンプル
+- DotNetOracleConsoleSample.DotNet.Benchmark
+    - DotNetOracleConsoleSample.DotNet.Benchmark のベンチマーク用
 
 ## Benchmark Result
 ### DotNetOracleConsoleSample.Core.Benchmark
-|     Method |       Mean |    Error |   StdDev |
-|----------- |-----------:|---------:|---------:|
-|   SqlQuery | 1,098.5 ms | 20.67 ms | 31.56 ms |
-| FromSqlRaw |   775.6 ms | 15.36 ms | 28.08 ms |
+|     Method |     Mean |   Error |  StdDev |
+|----------- |---------:|--------:|--------:|
+|   SqlQuery | 295.1 ms | 5.76 ms | 9.78 ms |
+| FromSqlRaw | 249.3 ms | 4.54 ms | 3.79 ms |
 
-### DotNetOracleConsoleSample.DotNetFive.Benchmark
-|     Method |       Mean |    Error |   StdDev |
-|----------- |-----------:|---------:|---------:|
-|   SqlQuery | 1,129.0 ms | 21.05 ms | 22.52 ms |
-| FromSqlRaw |   789.2 ms | 15.67 ms | 31.30 ms |
+### DotNetOracleConsoleSample.DotNet.Benchmark
+|     Method |     Mean |   Error |  StdDev |
+|----------- |---------:|--------:|--------:|
+|   SqlQuery | 226.0 ms | 4.51 ms | 8.36 ms |
+| FromSqlRaw | 156.5 ms | 3.07 ms | 4.69 ms |

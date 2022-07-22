@@ -16,11 +16,3 @@ CREATE TABLE SAMPLE.EMP (
 INSERT INTO SAMPLE.EMP VALUES ('1', 'Yamada');
 INSERT INTO SAMPLE.EMP VALUES ('2', 'Tanaka');
 INSERT INTO SAMPLE.EMP VALUES ('3', 'Sato');
-
-
-EXP SAMPLE/SAMPLEPW@localhost:1521/pdb01 file=.?sample.dmp owner=sample
-IMP SAMPLE/SAMPLEPW@localhost:1521/pdb01 file=.?sample.dmp FROMUSER=sample TOUSER=sample ignore=y
-
-
-
-CREATE DIRECTORY expdb_dir as Åe./expdp_dirÅe

@@ -15,7 +15,7 @@ ODP.NET で Oracle にデータアクセスするサンプル
 - DotNetOracleConsoleSample.Core.Benchmark
     - DotNetOracleConsoleSample.Core のベンチマーク用
 - DotNetOracleConsoleSample.DotNet
-    - ODP.NET + .NET6 + EntityFrameworkCore のサンプル
+    - ODP.NET + .NET8 + EntityFrameworkCore のサンプル
 - DotNetOracleConsoleSample.DotNet.Benchmark
     - DotNetOracleConsoleSample.DotNet.Benchmark のベンチマーク用
 
